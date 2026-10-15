@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 5473792587063460103}
   - component: {fileID: 7413929378390758387}
   - component: {fileID: 5859503327496543663}
-  m_Layer: 0
+  - component: {fileID: 4726500330439000833}
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -211,6 +212,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4726500330439000833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2502349920494097702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c30c44cef3bb874bb099da874695db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHeallth
+  MaxHealth: 3
+  currentHealth: 0
 --- !u!1 &4734562902182528977
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3982776344068034905}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
