@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec1df574d2c88f340b1ed5f83ba601f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPatroll
-  speed: 6
+  speed: 1
   groundCheck: {fileID: 3982776344068034905}
   distanceToGround: 1
   distanceToWall: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c30c44cef3bb874bb099da874695db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHeallth
-  MaxHealth: 3
+  MaxHealth: 6
   currentHealth: 0
 --- !u!1 &4734562902182528977
 GameObject:
